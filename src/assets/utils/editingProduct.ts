@@ -1,6 +1,6 @@
-import { cart } from "../data/cart.ts";
-import { products, FormatProduct } from "../data/products.ts";
-import { cartCountQuantity } from "./added-to-cart.ts";
+import { cart } from "../data/cart";
+import { products, FormatProduct } from "../data/products";
+import { cartCountQuantity } from "./added-to-cart";
 let matchingItem: FormatProduct;
 export function addingQuantity(productID: string) {
   
